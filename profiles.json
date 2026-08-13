@@ -1,8 +1,8 @@
 [
   {
     "student_id": "STU_001",
-    "name": "Kousalya",
-    "background": "3rd Year CSE Student with Biology background",
+    "name": "Alice",
+    "background": "2nd Year CSE Student ",
     "current_skills": ["Basic Python", "High School Math"],
     "career_goal": "Become an AI & Machine Learning Engineer"
   },
