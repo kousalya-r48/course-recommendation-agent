@@ -62,7 +62,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
   python agent.py
 
 ## ⚖️ Tradeoff & Architectural Reasoning
-- `Model Selection`: Selected gemini-2.5-flash for high-speed inference, cost-efficiency, and strong structured output capabilities.
+- `Model Selection`: Selected gemini-3.6-flash for high-speed inference, cost-efficiency, and strong structured output capabilities.
 
 - `Design Tradeoffs`: Injected catalogue data directly into the system prompt context rather than setting up a RAG pipeline or Vector DB. For a small catalog, this eliminates DB query latency and keeps execution zero-friction and deterministic.
 
