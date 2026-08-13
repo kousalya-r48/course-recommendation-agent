@@ -1,0 +1,37 @@
+[
+  {
+    "id": "CS101",
+    "title": "Python Programming Fundamentals",
+    "prerequisites": [],
+    "level": "Beginner",
+    "description": "Basics of variables, loops, functions, and data structures in Python."
+  },
+  {
+    "id": "CS102",
+    "title": "Data Structures & Algorithms in Python",
+    "prerequisites": ["CS101"],
+    "level": "Intermediate",
+    "description": "Arrays, Linked Lists, Trees, Sorting, and Time Complexity."
+  },
+  {
+    "id": "DS201",
+    "title": "Data Analysis with Pandas & SQL",
+    "prerequisites": ["CS101"],
+    "level": "Beginner",
+    "description": "Data manipulation, cleaning, querying databases with SQL and Python."
+  },
+  {
+    "id": "ML301",
+    "title": "Machine Learning Foundations",
+    "prerequisites": ["CS101", "DS201"],
+    "level": "Intermediate",
+    "description": "Supervised & unsupervised learning models, evaluation metrics."
+  },
+  {
+    "id": "AI401",
+    "title": "Applied AI Agents & LLMs",
+    "prerequisites": ["CS102", "ML301"],
+    "level": "Advanced",
+    "description": "Building agentic workflows, prompt engineering, and LLM tool integration."
+  }
+]
