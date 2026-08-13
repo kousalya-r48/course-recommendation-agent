@@ -1,3 +1,4 @@
+```markdown
 # Course Recommendation Agent
 
 A personalized learning path recommendation agent built for the Rooman AI Challenge.
@@ -13,7 +14,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 ## 🚀 Setup & Execution
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/kousalya-r48/course-recommendation-agent.id](https://github.com/kousalya-r48/course-recommendation-agent.id)
+   git clone https://github.com/kousalya-r48/course-recommendation-agent.git
    cd course-recommendation-agent
 
 ## Install required dependencies:
