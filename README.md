@@ -11,6 +11,37 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 - `catalogue.json`: Course catalogue with prerequisite mapping.
 - `profiles.json`: Test input student profiles.
 
+## 📥 Sample Input & Output
+
+### **Sample Input (`profiles.json` entry)**
+```json
+{
+  "student_id": "STU001",
+  "name": "Alex",
+  "current_skills": ["Python basics"],
+  "career_goal": "Data Scientist"
+}
+
+### **Sample Output (Agent JSON Response)**
+{
+  "student_id": "STU001",
+  "recommended_path": [
+    {
+      "step": 1,
+      "course_id": "CS101",
+      "course_title": "Advanced Python & Data Structures",
+      "rationale": "Strengthens core programming foundations necessary for handling data science workflows."
+    },
+    {
+      "step": 2,
+      "course_id": "DS201",
+      "course_title": "Introduction to Machine Learning",
+      "rationale": "Directly targets the career goal of becoming a data scientist after mastering prerequisite programming."
+    }
+  ],
+  "summary_reasoning": "Alex starts with Python skill reinforcement and transitions cleanly into foundational machine learning."
+}
+
 ## 🚀 Setup & Execution
 1. Clone this repository:
    ```bash
