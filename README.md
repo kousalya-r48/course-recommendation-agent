@@ -20,8 +20,8 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 pip install google-genai
 
 ## Set your Gemini API key in environment:
--Windows (CMD): set GEMINI_API_KEY=your_gemini_api_key
--Linux/Mac: export GEMINI_API_KEY="your_gemini_api_key"
+- `Windows(CMD)`: set GEMINI_API_KEY=your_gemini_api_key
+- `Linux/Mac`: export GEMINI_API_KEY="your_gemini_api_key"
 
 ## Run the Agent:
 python agent.py
