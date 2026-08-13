@@ -1,4 +1,4 @@
-```markdown
+
 # Course Recommendation Agent
 
 A personalized learning path recommendation agent built for the Rooman AI Challenge.
