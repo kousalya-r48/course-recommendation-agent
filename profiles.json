@@ -1,0 +1,16 @@
+[
+  {
+    "student_id": "STU_001",
+    "name": "Kousalya",
+    "background": "3rd Year CSE Student with Biology background",
+    "current_skills": ["Basic Python", "High School Math"],
+    "career_goal": "Become an AI & Machine Learning Engineer"
+  },
+  {
+    "student_id": "STU_002",
+    "name": "Rahul",
+    "background": "Non-CS Business Graduate",
+    "current_skills": ["Excel", "Communication"],
+    "career_goal": "Transition to Data Analyst"
+  }
+]
