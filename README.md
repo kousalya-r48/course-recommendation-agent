@@ -49,16 +49,17 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
    ```bash
    git clone https://github.com/kousalya-r48/course-recommendation-agent.git
    cd course-recommendation-agent
+   ```
 
-## Install required dependencies:
-pip install google-genai
+2. Install required dependencies:
+  pip install google-genai
 
-## Set your Gemini API key in environment:
+3. Set your Gemini API key in environment:
 - `Windows(CMD)`: set GEMINI_API_KEY=your_gemini_api_key
 - `Linux/Mac`: export GEMINI_API_KEY="your_gemini_api_key"
 
-## Run the Agent:
-python agent.py
+4. Run the Agent:
+  python agent.py
 
 ## ⚖️ Tradeoff & Architectural Reasoning
 - `Model Selection`: Selected gemini-2.5-flash for high-speed inference, cost-efficiency, and strong structured output capabilities.
