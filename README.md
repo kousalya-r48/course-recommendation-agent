@@ -23,6 +23,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 }
 ```
 ### **Sample Output (Agent JSON Response)**
+```json
 {
   "student_id": "STU001",
   "recommended_path": [
@@ -41,6 +42,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
   ],
   "summary_reasoning": "Alex starts with Python skill reinforcement and transitions cleanly into foundational machine learning."
 }
+```
 
 ## 🚀 Setup & Execution
 1. Clone this repository:
