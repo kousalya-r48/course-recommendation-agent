@@ -10,6 +10,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 - `agent.py`: Core agent logic powered by Gemini API.
 - `catalogue.json`: Course catalogue with prerequisite mapping.
 - `profiles.json`: Test input student profiles.
+- `test_agent.py`: Unit test suite.
 
 ## 📥 Sample Input & Output
 
