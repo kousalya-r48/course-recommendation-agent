@@ -59,11 +59,14 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
    
 3. Set your Gemini API key in environment:
 
-**Windows (CMD):**
+- Windows (CMD):
 ```cmd
 set GEMINI_API_KEY=your_gemini_api_key
 ```
-- `Linux/Mac`: export GEMINI_API_KEY="your_gemini_api_key"
+- Linux/Mac:
+  ```bash
+  export GEMINI_API_KEY="your_gemini_api_key"
+  ```
 
 4. Run the Agent:
   ```bash
