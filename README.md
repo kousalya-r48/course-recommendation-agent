@@ -62,9 +62,9 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 - Windows (CMD):
 ```cmd
 set GEMINI_API_KEY=your_gemini_api_key
-
+```
 - Linux/Mac:
- 
+ ```bash
 export GEMINI_API_KEY="your_gemini_api_key"
   ```
 
