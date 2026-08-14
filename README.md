@@ -66,7 +66,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 To run the automated unit tests, make sure `pytest` is installed and execute:
 ```bash
 pytest
-
+```
 ## ⚖️ Tradeoff & Architectural Reasoning
 - `Model Selection`: Selected gemini-3.6-flash for high-speed inference, cost-efficiency, and strong structured output capabilities.
 
