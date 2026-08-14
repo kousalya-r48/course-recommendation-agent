@@ -14,34 +14,62 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 
 ## 📥 Sample Input & Output
 
-### **Sample Input (`profiles.json` entry)**
+### **Sample Input (`profiles.json`)**
 ```json
-{
-  "student_id": "STU001",
-  "name": "Alex",
-  "current_skills": ["Python basics"],
-  "career_goal": "Data Scientist"
-}
+[
+  {
+    "student_id": "STU_001",
+    "name": "Alice",
+    "background": "2nd Year CSE Student",
+    "current_skills": ["Basic Python", "High School Math"],
+    "career_goal": "Become an AI & Machine Learning Engineer"
+  },
+  {
+    "student_id": "STU_002",
+    "name": "Rahul",
+    "background": "Non-CS Business Graduate",
+    "current_skills": ["Excel", "Communication"],
+    "career_goal": "Transition to Data Analyst"
+  },
+  {
+    "student_id": "STU003",
+    "name": "David",
+    "current_skills": ["Basic Networking", "Linux"],
+    "career_goal": "Cybersecurity Analyst"
+  },
+  {
+    "student_id": "STU004",
+    "name": "Sophia",
+    "current_skills": ["Python", "SQL"],
+    "career_goal": "Machine Learning Engineer"
+  }
+]
 ```
-### **Sample Output (Agent JSON Response)**
+### **Sample Output (Agent JSON Response for STU_001)**
 ```json
 {
-  "student_id": "STU001",
+  "student_id": "STU_001",
   "recommended_path": [
     {
       "step": 1,
       "course_id": "CS101",
       "course_title": "Advanced Python & Data Structures",
-      "rationale": "Strengthens core programming foundations necessary for handling data science workflows."
+      "rationale": "Builds upon basic Python skills and provides essential programming concepts required for AI models."
     },
     {
       "step": 2,
-      "course_id": "DS201",
-      "course_title": "Introduction to Machine Learning",
-      "rationale": "Directly targets the career goal of becoming a data scientist after mastering prerequisite programming."
+      "course_id": "MATH201",
+      "course_title": "Linear Algebra & Probability for AI",
+      "rationale": "Transitions high school math foundations into core mathematical concepts needed for machine learning algorithms."
+    },
+    {
+      "step": 3,
+      "course_id": "AI301",
+      "course_title": "Applied Machine Learning & Deep Learning",
+      "rationale": "Directly achieves the target goal of becoming an AI/ML Engineer after prerequisites are fulfilled."
     }
   ],
-  "summary_reasoning": "Alex starts with Python skill reinforcement and transitions cleanly into foundational machine learning."
+  "summary_reasoning": "Alice leverages her CSE background and Python basics to progress systematically through advanced programming, foundational AI math, and practical machine learning."
 }
 ```
 
