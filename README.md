@@ -98,7 +98,7 @@ export GEMINI_API_KEY="your_gemini_api_key"
 
 4. Run the Agent:
   ```bash
-    python agent.py
+python agent.py
 ```
 
 ## Running Tests
