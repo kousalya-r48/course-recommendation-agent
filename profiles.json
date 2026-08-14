@@ -18,5 +18,11 @@
     "name": "David",
     "current_skills": ["Basic Networking", "Linux"],
     "career_goal": "Cybersecurity Analyst"
+  },
+  {
+    "student_id": "STU004",
+    "name": "Sophia",
+    "current_skills": ["Python", "SQL"],
+    "career_goal": "Machine Learning Engineer"
   }
 ]
