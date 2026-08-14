@@ -54,7 +54,7 @@ A personalized learning path recommendation agent built for the Rooman AI Challe
 
 2. Install required dependencies:
    ```bash
-   pip install google-genai
+   pip install google-genai pytest
    ```
    
 3. Set your Gemini API key in environment:
